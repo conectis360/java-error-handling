@@ -1,6 +1,5 @@
 package com.company;
 
-// Note: This class will not compile yet.
 import java.io.*;
 import java.util.List;
 import java.util.ArrayList;
