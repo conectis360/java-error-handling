@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        ListOfNumbers listOfNumbers = new ListOfNumbers();
 
-        System.out.println(listOfNumbers);
-        listOfNumbers.writeList();
+        MyClass obj1 = new MyClass(10);
+        int result1 = obj1.divideBy(0);
+        // This will raise and handle an ArithmeticException.
+        // Class-level handler is not applicable in Java as non-static methods require an object instance.
 }
 
     public static void scanNumber() {
