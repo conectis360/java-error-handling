@@ -5,9 +5,11 @@ public class TryCatch {
         try {
             // This block contains the code that might throw an exception. If an exception occurs,
             // control is transferred to the appropriate catch block
-        }catch (Exception e) {
+        }catch (ArithmeticException e) {
             //This block contains the code that will execute when a particular type of exception is thrown.
             // The exception object (e) contains details about the error.
+        }catch (NumberFormatException e) {
+            // Java allows you to define multiple catch blocks to handle different types of exceptions separately.
         }finally {
             // The finally block is an optional block that can follow a try-catch structure.
             // It contains code that is guaranteed to execute regardless of whether an exception occurs or not.
@@ -17,12 +19,13 @@ public class TryCatch {
 
     public static void main(String[] args) {
         try {
-            int[] numbers = {1, 2, 3};
-            System.out.println(numbers[3]);  // This will throw an ArrayIndexOutOfBoundsException
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Error: Array index out of bounds.");
-        } finally {
-            System.out.println("Finally block executed.");
+            String str = null;
+            System.out.println(str.length());  // Throws NullPointerException
+            int num = Integer.parseInt("ABC");  // This line is not executed due to the exception above
+        } catch (NullPointerException e) {
+            System.out.println("Error: Null pointer encountered.");
+        } catch (NumberFormatException e) {
+            System.out.println("Error: Number format issue.");
         }
     }
 }
