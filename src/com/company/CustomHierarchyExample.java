@@ -1,6 +1,6 @@
 package com.company;
 
-// Base custom exception
+/*Base custom exception
 public class ApplicationException extends Exception {
     public ApplicationException(String message) {
         super(message);
@@ -20,3 +20,4 @@ public class NetworkException extends ApplicationException {
         super(message);
     }
 }
+*/
