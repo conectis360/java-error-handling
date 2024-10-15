@@ -1,5 +1,6 @@
 package com.company;
 
+/*
 public class RealTimeSensorSystem {
     public static void main(String[] args) {
         try {
@@ -26,3 +27,4 @@ public class RealTimeSensorSystem {
         return true; // Simulating a failure
     }
 }
+* */

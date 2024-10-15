@@ -1,5 +1,5 @@
 package com.company;
-
+/*
 public class RealTimeControlSystem {
     public static void main(String[] args) {
         try {
@@ -26,3 +26,4 @@ public class RealTimeControlSystem {
     }
 }
 
+*/

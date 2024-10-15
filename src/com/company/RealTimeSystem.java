@@ -1,5 +1,6 @@
 package com.company;
 
+/*
 public class RealTimeSystem {
     private static final CustomException preAllocatedException = new CustomException("Pre-allocated exception");
 
@@ -17,4 +18,5 @@ public class RealTimeSystem {
         System.out.println("Handled exception: " + e.getMessage());
     }
 }
+ */
 
