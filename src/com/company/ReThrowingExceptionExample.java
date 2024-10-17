@@ -1,6 +1,7 @@
 package com.company;
 
 public class ReThrowingExceptionExample {
+/*
     public static void main(String[] args) {
         try {
             processTransaction();
@@ -18,5 +19,6 @@ public class ReThrowingExceptionExample {
             throw e;
         }
     }
+ */
 }
 

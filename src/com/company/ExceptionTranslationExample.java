@@ -1,6 +1,7 @@
 package com.company;
 
 public class ExceptionTranslationExample {
+    /*
     public static void main(String[] args) {
         try {
             connectToDatabase();
@@ -18,5 +19,6 @@ public class ExceptionTranslationExample {
             throw new DatabaseException("Failed to connect to the database: " + e.getMessage());
         }
     }
+     */
 }
 
